@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Caffeine Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="let_s_add_caffeine">add caffeine</string>
+    <string name="your">your</string>
+    <string name="add">add</string>
+    <string name="drink">drink</string>
+    <string name="here">here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Dialog-->
+    <string-array name="category_items">
+        <item>Americano</item>
+        <item>Caffe Latte</item>
+        <item>Cappuccino</item>
+        <item>Espresso</item>
+        <item>Espresso Macchiato</item>
+        <item>Latte Macchiato</item>
+        <item>Lungo</item>
+    </string-array>
+    <string name="dialog_title">New drink</string>
+    <string name="addDrink">Add</string>
+    <string name="cacnelDrink">Cancel</string>
+    <string name="comment">Comment</string>
+    <string name="drink_type">Drink type</string>
+    <string name="view_drinks">View drinks</string>
+</resources>

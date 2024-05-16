@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="hu.bme.aut.android.caffeinetracker.fragments.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_drinks"
+            app:destination="@id/drinks" />
+    </fragment>
+    <fragment
+        android:id="@+id/drinks"
+        android:name="hu.bme.aut.android.caffeinetracker.fragments.Drinks"
+        android:label="fragment_drinks"
+        tools:layout="@layout/fragment_drinks" >
+        <action
+            android:id="@+id/action_drinks_to_drinkDialog"
+            app:destination="@id/drinkDialog" />
+        <argument
+            android:name="caffeineDrink"
+            app:argType="hu.bme.aut.android.caffeinetracker.data.CaffeineDrink" />
+    </fragment>
+    <dialog
+        android:id="@+id/drinkDialog"
+        android:name="hu.bme.aut.android.caffeinetracker.fragments.DrinkDialog"
+        android:label="DrinkDialog" />
+</navigation>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Caffeinetracker" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#D9A577</item>
+        <item name="colorPrimaryVariant">#A6754B</item>
+        <item name="colorOnPrimary">#261206</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#D9A577</item>
+        <item name="colorSecondaryVariant">#A6754B</item>
+        <item name="colorOnSecondary">#261206</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#734022</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
